@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     fontWeight: 'bold',
-    fontSize: 70,
+    fontSize: 50,
     color: '#fb5b5a',
     marginBottom:70
   },
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
   },
   loginBtn: {
     width: '80%',
-    backgroundColor: '#fb5b5a',
+    backgroundColor: '#fb5b5b',
     borderRadius: 25,
     height: 50,
     alignItems: 'center',
