@@ -20,17 +20,17 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     flexDirection: 'column',
     backgroundColor: '#fff',
     justifyContent: 'center',
-    padding: 70,
+    padding: 70
   },
   item1: {
+    flex: 0,
     backgroundColor: '#fff',
-    alignItems: 'stretch',
+    alignItems: 'center',
     flexDirection: 'row',
-    justifyContent: 'space-around'
+    justifyContent: 'space-between'
   },
   item2: {
     backgroundColor: '#f456',
