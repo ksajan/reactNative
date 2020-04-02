@@ -5,9 +5,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <TextInput placeholder="Email/Username"
-      style={{borderColor: 'black', borderWidth: 0.8, padding: 5}} />
+      style={{borderColor: 'black', borderWidth: 0.8, padding: 5, color: 'white'}} />
       <TextInput placeholder="Password"
-      style={{borderColor: 'black', borderWidth: 0.8, padding: 5}} />
+      style={{borderColor: 'black', borderWidth: 0.8, padding: 5, color: 'white'}} />
       <View style={styles.item1}>
         <Button title="Login" />
         <Button title="Register" />
@@ -21,8 +21,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'column',
     backgroundColor: '#fff',
-    //alignItems: 'center',
     justifyContent: 'center',
     padding: 70,
   },
