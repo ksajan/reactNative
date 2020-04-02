@@ -9,10 +9,10 @@ export default function App() {
       <TextInput placeholder="Password"
       style={{borderColor: 'black', borderWidth: 0.8, padding: 5}} />
       <View style={styles.item1}>
+        <Button title="Login" />
         <Button title="Register" />
       </View>
       <View style={styles.item2}>
-        <Button title="Login" />
       </View>
     </View>
   );
@@ -27,9 +27,10 @@ const styles = StyleSheet.create({
     padding: 70,
   },
   item1: {
-    backgroundColor: '#f456',
-    //alignItems: 'center',
-    justifyContent: 'center'
+    backgroundColor: '#fff',
+    alignItems: 'stretch',
+    flexDirection: 'row',
+    justifyContent: 'space-around'
   },
   item2: {
     backgroundColor: '#f456',
