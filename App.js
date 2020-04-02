@@ -5,9 +5,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <TextInput placeholder="Email/Username"
-      style={{borderColor: 'black', borderWidth: 0.8, padding: 5, color: 'white'}} />
+                      style={styles.input} />
       <TextInput placeholder="Password"
-      style={{borderColor: 'black', borderWidth: 0.8, padding: 5, color: 'white'}} />
+                      style={styles.input} />
       <View style={styles.item1}>
         <Button title="Login" />
         <Button title="Register" />
@@ -22,13 +22,14 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'column',
     backgroundColor: '#fff',
+    alignItems: 'stretch',
     justifyContent: 'center',
-    padding: 70
+    padding: 60
   },
   item1: {
     flex: 0,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    alignItems: 'stretch',
     flexDirection: 'row',
     justifyContent: 'space-between'
   },
@@ -36,5 +37,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#f456',
     //alignItems: 'center',
     justifyContent: 'center'
+  },
+  input: {
+    borderColor: 'black',
+    borderWidth: 0.8,
+    padding: 5,
+    color: 'white'
   }
 });
